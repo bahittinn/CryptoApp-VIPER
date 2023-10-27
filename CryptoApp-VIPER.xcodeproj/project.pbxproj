@@ -10,7 +10,6 @@
 		642FD3332AEC46A000D1A463 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642FD3322AEC46A000D1A463 /* AppDelegate.swift */; };
 		642FD3352AEC46A000D1A463 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642FD3342AEC46A000D1A463 /* SceneDelegate.swift */; };
 		642FD3372AEC46A000D1A463 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642FD3362AEC46A000D1A463 /* ViewController.swift */; };
-		642FD33A2AEC46A000D1A463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 642FD3382AEC46A000D1A463 /* Main.storyboard */; };
 		642FD33C2AEC46A200D1A463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 642FD33B2AEC46A200D1A463 /* Assets.xcassets */; };
 		642FD33F2AEC46A200D1A463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 642FD33D2AEC46A200D1A463 /* LaunchScreen.storyboard */; };
 		642FD3492AEC4A7100D1A463 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642FD3482AEC4A7100D1A463 /* View.swift */; };
@@ -25,7 +24,6 @@
 		642FD3322AEC46A000D1A463 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		642FD3342AEC46A000D1A463 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		642FD3362AEC46A000D1A463 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		642FD3392AEC46A000D1A463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		642FD33B2AEC46A200D1A463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		642FD33E2AEC46A200D1A463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		642FD3402AEC46A200D1A463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,7 +76,6 @@
 				642FD3322AEC46A000D1A463 /* AppDelegate.swift */,
 				642FD3342AEC46A000D1A463 /* SceneDelegate.swift */,
 				642FD3362AEC46A000D1A463 /* ViewController.swift */,
-				642FD3382AEC46A000D1A463 /* Main.storyboard */,
 				642FD33B2AEC46A200D1A463 /* Assets.xcassets */,
 				642FD33D2AEC46A200D1A463 /* LaunchScreen.storyboard */,
 				642FD3402AEC46A200D1A463 /* Info.plist */,
@@ -158,7 +155,6 @@
 			files = (
 				642FD33F2AEC46A200D1A463 /* LaunchScreen.storyboard in Resources */,
 				642FD33C2AEC46A200D1A463 /* Assets.xcassets in Resources */,
-				642FD33A2AEC46A000D1A463 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,14 +179,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		642FD3382AEC46A000D1A463 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				642FD3392AEC46A000D1A463 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		642FD33D2AEC46A200D1A463 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -327,7 +315,6 @@
 				INFOPLIST_FILE = "CryptoApp-VIPER/Core/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -354,7 +341,6 @@
 				INFOPLIST_FILE = "CryptoApp-VIPER/Core/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
