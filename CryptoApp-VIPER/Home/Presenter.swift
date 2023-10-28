@@ -17,15 +17,21 @@ protocol AnyPresenter {
 
 class CryptoPresenter: AnyPresenter {
     var router: AnyRouter?
-    var interactor: AnyInteractor?
+    var interactor: AnyInteractor? {
+        didSet {
+            interactor?.downloadCryptos()
+        }
+    }
+    
+    
     var view: AnyView?
     
     func interactorDidDownloadCryptos(result: Result<[Crypto], Error>) {
         switch result {
         case .success(let cryptos):
-            print(cryptos)
+            view?.Update(with: cryptos)
         case .failure(let error):
-            print(error.localizedDescription)
+            view?.Update(with: error.localizedDescription)
         }
     }
 }

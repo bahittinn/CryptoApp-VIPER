@@ -58,11 +58,17 @@ extension CryptoViewController: AnyView {
             self.cryptos = crptos
             self.messageLabel.isHidden = true
             self.tableView.isHidden    = false
+            self.tableView.reloadData()
         }
     }
     
     func Update(with error: String) {
-        
+        DispatchQueue.main.async {
+            self.cryptos = []
+            self.tableView.isHidden    = true
+            self.messageLabel.text     = error
+            self.messageLabel.isHidden = false
+        }
     }
 }
 
@@ -72,8 +78,12 @@ extension CryptoViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
-        cell.textLabel?.text = cryptos[indexPath.row].currency
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell",for: indexPath)
+        var content = cell.defaultContentConfiguration()
+        content.text = cryptos[indexPath.row].currency
+        content.secondaryText = cryptos[indexPath.row].price
+        cell.contentConfiguration = content
+        cell.backgroundColor = .yellow
         return cell
     }
 }
