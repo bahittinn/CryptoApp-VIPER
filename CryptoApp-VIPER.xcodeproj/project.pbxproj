@@ -17,6 +17,7 @@
 		642FD34D2AEC4A7F00D1A463 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642FD34C2AEC4A7F00D1A463 /* Presenter.swift */; };
 		642FD34F2AEC4A8500D1A463 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642FD34E2AEC4A8500D1A463 /* Entity.swift */; };
 		642FD3512AEC4A8F00D1A463 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642FD3502AEC4A8F00D1A463 /* Router.swift */; };
+		642FD3542AED83B500D1A463 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642FD3532AED83B500D1A463 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		642FD34C2AEC4A7F00D1A463 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		642FD34E2AEC4A8500D1A463 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		642FD3502AEC4A8F00D1A463 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		642FD3532AED83B500D1A463 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		642FD3312AEC46A000D1A463 /* CryptoApp-VIPER */ = {
 			isa = PBXGroup;
 			children = (
+				642FD3522AED83B000D1A463 /* Constants */,
 				642FD3472AEC4A4700D1A463 /* Home */,
 				642FD3462AEC4A3800D1A463 /* Core */,
 			);
@@ -93,6 +96,14 @@
 				642FD3502AEC4A8F00D1A463 /* Router.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		642FD3522AED83B000D1A463 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				642FD3532AED83B500D1A463 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +184,7 @@
 				642FD3332AEC46A000D1A463 /* AppDelegate.swift in Sources */,
 				642FD3352AEC46A000D1A463 /* SceneDelegate.swift in Sources */,
 				642FD34F2AEC4A8500D1A463 /* Entity.swift in Sources */,
+				642FD3542AED83B500D1A463 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
