@@ -5,4 +5,12 @@
 //  Created by Bahittin on 27.10.2023.
 //
 
-import Foundation
+import UIKit
+
+protocol AnyView {
+    
+}
+
+class CryptoViewController: UIViewController, AnyView {
+    
+}

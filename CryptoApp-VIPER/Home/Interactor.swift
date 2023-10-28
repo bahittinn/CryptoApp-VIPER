@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+protocol AnyInteractor {
+    
+}
+
+class CryptoInteractor: AnyInteractor {
+    
+}
